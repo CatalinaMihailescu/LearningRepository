@@ -1,6 +1,6 @@
 package com.company;
 
-public class SubString {
+public class makeOutWord {
     public static void main(String args[]){
         String out="Hello";
         String word="Word";

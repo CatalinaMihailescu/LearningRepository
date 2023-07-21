@@ -1,9 +1,8 @@
 package com.company;
-
 public class Main {
 
     public static void main(String[] args) {
-  /*     int answer = 7 + 3 * 4;
+        int answer = 7 + 3 * 4;
         System.out.println(answer);
 
         double radius = 12.0;
@@ -33,13 +32,13 @@ public class Main {
             System.out.printf("The next month after %s is %s%n", month, month % 12 +1);
         }
 
-   */
 
-        int a = 12;
-        int b = 0;
-        if (b != 0 && divideTwoNumbers(a,b) == 2) {
-            System.out.println("we've found a 2. ");
-        }
+
+      //  int a = 12;
+      //  int b = 0;
+      //  if (b != 0 && divideTwoNumbers(a,b) == 2) {
+      //      System.out.println("we've found a 2. ");
+      //  }
     }
 
     private static int divideTwoNumbers(int x, int y){
