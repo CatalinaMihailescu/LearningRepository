@@ -10,8 +10,20 @@ public class startWord {
         Scanner my_scan2 = new Scanner(System.in);
         String word = my_scan2.nextLine();
 
-        if ((str.length() >= word.length()) && str.substring(1,word.length()).equals(word.substring(1)))
-            System.out.println(str.substring(0,word.length()));
-        System.out.println(" ");
+        int lstr = str.length();
+        int lword = word.length();
+
+        if (lstr == 0)
+            System.out.println("");
+
+        if (lstr > lword)
+            System.out.println("");
+
+        if (lword == 1)
+            System.out.println(str.substring(0,1));
+        else if (str.substring(1,lword).equals(word.substring(1,lword)))
+            System.out.println(str.substring(0,lword));
+        else
+            System.out.println("");
     }
 }
